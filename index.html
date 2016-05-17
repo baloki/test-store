@@ -9,7 +9,9 @@
   <body>
     <div class="page-container">
       <header class="header">
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Logo" class="header__logo" /> Company Name
+        <a href="index.html">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Logo" class="header__logo" /> Company Name
+        </a>
       </header>
 
       <menu id="menu" class="navigation">
@@ -41,7 +43,7 @@
           Lorem Ipsum Dolor Sit
         </h1>
         <div class="article__sub-line">
-          posted on 15 May 2015 by Author
+          posted on 15 May 2015 by <a href="#">Author</a>
         </div>
         <img src="http://placehold.it/640x480" alt="4:3" class="article__image" />
         <p class="article__paragraph">
@@ -89,11 +91,17 @@
         </a>
       </div>
 
-      <footer>
+      <footer class="footer">
         <div class="social">
-          Facebook
-          Twitter
-          Google+
+          <a href="#" class="social__icon-container">
+            <img src="assets/images/facebook.png" class="social__icon" />
+          </a>
+          <a href="#" class="social__icon-container">
+            <img src="assets/images/twitter.png" class="social__icon" />
+          </a>
+          <a href="#" class="social__icon-container">
+            <img src="assets/images/google_plus.png" class="social__icon" />
+          </a>
         </div>
       </footer>
     </div>

@@ -1,0 +1,23 @@
+.social {
+  &::before,
+  &::after {
+      content: " ";
+      display: table;
+  }
+
+  &::after {
+      clear: both;
+  }
+
+  &__icon-container {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 33%;
+  }
+
+  &__icon {
+    height: 2em;
+    width: 2em;
+  }
+}

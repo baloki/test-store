@@ -137,4 +137,35 @@ a {
 .related {
   display: none; }
 
+/* line 3, /Users/pvose/Websites/~code_tests/test-store/assets/css/_social.scss */
+.social::before,
+.social::after {
+  content: " ";
+  display: table; }
+
+/* line 8, /Users/pvose/Websites/~code_tests/test-store/assets/css/_social.scss */
+.social::after {
+  clear: both; }
+
+/* line 12, /Users/pvose/Websites/~code_tests/test-store/assets/css/_social.scss */
+.social__icon-container {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 33%; }
+
+/* line 19, /Users/pvose/Websites/~code_tests/test-store/assets/css/_social.scss */
+.social__icon {
+  height: 2em;
+  width: 2em; }
+
+/* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_footer.scss */
+.footer {
+  background-color: #f2f2f2;
+  border: 1px solid #000000;
+  border-bottom: none;
+  margin-top: 1em;
+  padding: 1em;
+  text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
