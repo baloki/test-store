@@ -1,0 +1,13 @@
+.header {
+  font-size: 2em;
+  font-style: italic;
+  margin: 0.5em 0 1em;
+  text-align: center;
+
+  &__logo {
+    height: 1.5em;
+    padding-right: 0.1em;
+    vertical-align: middle;
+    width: 1.5em;
+  }
+}
