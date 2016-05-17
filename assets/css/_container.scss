@@ -1,4 +1,5 @@
 .page-container {
+  @include clearfix;
   margin: 0 2em;
     
   @include breakpoint($tablet) {

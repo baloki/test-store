@@ -1,4 +1,10 @@
 .article {
+  @include breakpoint($tablet) {
+    float: left;
+    margin-right: 2%;
+    width: 81%;
+  }
+
   &__image {
     height: auto;
     margin: 0.8em 0;

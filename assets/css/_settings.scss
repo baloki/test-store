@@ -5,8 +5,7 @@ $menu-background: #f2f2f2;
 $menu-border: darken($menu-background, 80%);
 
 /* breakpoints */
-$tablet: 420px;
-$desktop: 720px;
+$tablet: 769px;
 
 @mixin breakpoint($size) {
   @media only screen and (min-width: $size) {

@@ -1,12 +1,12 @@
 @import 'reset';
 @import 'settings';
 @import 'generic_styles';
-@import 'container';
 
 /* Helpers */
 @import 'clearfix';
 
 /* Components */
+@import 'container';
 @import 'header';
 @import 'navigation';
 @import 'article';
