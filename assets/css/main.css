@@ -56,15 +56,31 @@ table {
 /* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
 h1 {
   font-size: 2em;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 1.4em; }
 
-/* line 6, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
+/* line 7, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
 h2 {
   font-size: 1.5em;
   font-weight: bold; }
 
-/* line 11, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
+/* line 12, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
 h3 {
   font-size: 1.5em; }
+
+/* line 16, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
+img {
+  max-width: 100%; }
+
+/* Components */
+/* line 2, /Users/pvose/Websites/~code_tests/test-store/assets/css/_article.scss */
+.article__image {
+  height: auto;
+  margin: 0.8em 0;
+  width: 100%; }
+
+/* line 8, /Users/pvose/Websites/~code_tests/test-store/assets/css/_article.scss */
+.article__paragraph {
+  margin-bottom: 0.8em; }
 
 /*# sourceMappingURL=main.css.map */
