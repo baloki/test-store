@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 18, /Users/pvose/Websites/~code_tests/test-store/assets/css/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,148 +23,136 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 28, /Users/pvose/Websites/~code_tests/test-store/assets/css/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 31, /Users/pvose/Websites/~code_tests/test-store/assets/css/_reset.scss */
 body {
   line-height: 1; }
 
-/* line 34, /Users/pvose/Websites/~code_tests/test-store/assets/css/_reset.scss */
 ol, ul {
   list-style: none; }
 
-/* line 37, /Users/pvose/Websites/~code_tests/test-store/assets/css/_reset.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 41, /Users/pvose/Websites/~code_tests/test-store/assets/css/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
-/* line 45, /Users/pvose/Websites/~code_tests/test-store/assets/css/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
 /* Colours */
-/* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
+/* breakpoints */
 h1 {
   font-size: 1.8em;
   font-weight: bold;
   line-height: 1.4em; }
 
-/* line 7, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
 h2 {
   font-size: 1.4em;
   font-weight: bold; }
 
-/* line 12, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
 h3 {
   font-size: 1.4em; }
 
-/* line 16, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
 img {
   max-width: 100%; }
 
-/* line 20, /Users/pvose/Websites/~code_tests/test-store/assets/css/_generic_styles.scss */
 a {
   color: #000000;
   text-decoration: none; }
 
-/* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_container.scss */
 .page-container {
   margin: 0 2em; }
+  @media only screen and (min-width: 420px) {
+    .page-container {
+      margin: 0 auto;
+      max-width: 980px; } }
 
+/* Helpers */
 /* Components */
-/* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_header.scss */
 .header {
   font-size: 2em;
   font-style: italic;
   margin: 0.5em 0 1em;
   text-align: center; }
-  /* line 7, /Users/pvose/Websites/~code_tests/test-store/assets/css/_header.scss */
   .header__logo {
     height: 1.5em;
     padding-right: 0.1em;
     vertical-align: middle;
     width: 1.5em; }
 
-/* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_navigation.scss */
 .navigation {
   background-color: #f2f2f2;
   border: 1px solid #262626;
   margin: 1em auto;
   padding: 0.5em 0;
   width: 10em; }
-  /* line 8, /Users/pvose/Websites/~code_tests/test-store/assets/css/_navigation.scss */
+  .navigation::before, .navigation::after {
+    content: " ";
+    display: table; }
+  .navigation::after {
+    clear: both; }
+  @media only screen and (min-width: 420px) {
+    .navigation {
+      width: 100%; } }
   .navigation__trigger {
     display: block;
     padding: 0.3em;
     text-align: center; }
-  /* line 14, /Users/pvose/Websites/~code_tests/test-store/assets/css/_navigation.scss */
+    @media only screen and (min-width: 420px) {
+      .navigation__trigger {
+        display: none; } }
   .navigation__item {
     display: none;
     padding: 0.4em;
     text-align: center; }
-    /* line 19, /Users/pvose/Websites/~code_tests/test-store/assets/css/_navigation.scss */
+    @media only screen and (min-width: 420px) {
+      .navigation__item {
+        display: inline;
+        float: left; } }
     #menu:target .navigation__item {
       display: block; }
 
-/* line 2, /Users/pvose/Websites/~code_tests/test-store/assets/css/_article.scss */
 .article__image {
   height: auto;
   margin: 0.8em 0;
   width: 100%; }
-
-/* line 8, /Users/pvose/Websites/~code_tests/test-store/assets/css/_article.scss */
 .article__paragraph {
   margin-bottom: 0.8em; }
 
-/* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_additional_links.scss */
 .additional-links__list {
   list-style: disc; }
-  /* line 4, /Users/pvose/Websites/~code_tests/test-store/assets/css/_additional_links.scss */
   .additional-links__list__item {
     margin: 0.25em 1.6em; }
 
-/* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_related.scss */
 .related {
   display: none; }
 
-/* line 3, /Users/pvose/Websites/~code_tests/test-store/assets/css/_social.scss */
-.social::before,
-.social::after {
+.social::before, .social::after {
   content: " ";
   display: table; }
-
-/* line 8, /Users/pvose/Websites/~code_tests/test-store/assets/css/_social.scss */
 .social::after {
   clear: both; }
-
-/* line 12, /Users/pvose/Websites/~code_tests/test-store/assets/css/_social.scss */
 .social__icon-container {
   display: block;
   float: left;
   text-align: center;
   width: 33%; }
-
-/* line 19, /Users/pvose/Websites/~code_tests/test-store/assets/css/_social.scss */
 .social__icon {
   height: 2em;
   width: 2em; }
 
-/* line 1, /Users/pvose/Websites/~code_tests/test-store/assets/css/_footer.scss */
 .footer {
   background-color: #f2f2f2;
   border: 1px solid #000000;
   border-bottom: none;
   margin-top: 1em;
-  padding: 1em;
+  padding: 0.5em 1em;
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

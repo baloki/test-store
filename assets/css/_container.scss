@@ -1,3 +1,8 @@
 .page-container {
   margin: 0 2em;
+    
+  @include breakpoint($tablet) {
+    margin: 0 auto;
+    max-width: 980px;
+  }
 }

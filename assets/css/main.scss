@@ -3,6 +3,9 @@
 @import 'generic_styles';
 @import 'container';
 
+/* Helpers */
+@import 'clearfix';
+
 /* Components */
 @import 'header';
 @import 'navigation';

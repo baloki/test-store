@@ -1,13 +1,5 @@
 .social {
-  &::before,
-  &::after {
-      content: " ";
-      display: table;
-  }
-
-  &::after {
-      clear: both;
-  }
+  @include clearfix;
 
   &__icon-container {
     display: block;
