@@ -1,7 +1,14 @@
-.additional-links__list {
-  list-style: disc;
-  
-  &__item {
-    margin: 0.25em 1.6em;
+.additional-links {
+  @include breakpoint($tablet) {
+    order: 2;
+    width: 20%;
+  }
+
+  &__list {
+    list-style: disc;
+
+    &__item {
+      margin: 0.25em 1.6em;
+    }
   }
 }

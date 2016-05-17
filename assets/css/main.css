@@ -132,14 +132,27 @@ a {
   .article {
     float: left;
     margin-right: 2%;
-    width: 81%; } }
+    width: 81%; }
+    .article__content {
+      display: flex;
+      flex-wrap: wrap; } }
 .article__image {
   height: auto;
   margin: 0.8em 0;
   width: 100%; }
 .article__paragraph {
   margin-bottom: 0.8em; }
+  @media only screen and (min-width: 769px) {
+    .article__paragraph:nth-child(1) {
+      width: 80%; }
+    .article__paragraph:nth-child(2) {
+      flex-grow: 2;
+      order: 3; } }
 
+@media only screen and (min-width: 769px) {
+  .additional-links {
+    order: 2;
+    width: 20%; } }
 .additional-links__list {
   list-style: disc; }
   .additional-links__list__item {
