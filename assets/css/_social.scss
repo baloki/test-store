@@ -1,5 +1,12 @@
 .social {
   @include clearfix;
+    
+  @include breakpoint($tablet) {
+    position: absolute;
+    right: 0;
+    top: 1.5em;
+    width: 8em;
+  }
 
   &__icon-container {
     display: block;
