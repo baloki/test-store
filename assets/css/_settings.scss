@@ -1,4 +1,5 @@
 /* Colours */
 $background-colour: #ffffff;
 $font-colour: #000000;
-$menu-background: #cccccc;
+$menu-background: #f2f2f2;
+$menu-border: darken($menu-background, 80%);

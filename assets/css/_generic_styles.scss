@@ -1,18 +1,23 @@
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
   line-height: 1.4em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 img {
   max-width: 100%;
+}
+
+a {
+  color: $font-colour;
+  text-decoration: none;
 }
