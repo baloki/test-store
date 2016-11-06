@@ -3,7 +3,7 @@
     float: left;
     margin-right: 2%;
     width: 81%;
-    
+
     &__content {
       display: flex;
       flex-wrap: wrap;
@@ -15,15 +15,15 @@
     margin: 0.8em 0;
     width: 100%;
   }
-  
+
   &__paragraph {
     margin-bottom: 0.8em;
-    
+
     @include breakpoint($tablet) {
       &:nth-child(1) {
         width: 80%;
       }
-      
+
       &:nth-child(2) {
         flex-grow: 2;
         order: 3;

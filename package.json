@@ -1,0 +1,24 @@
+{
+  "name": "test-store",
+  "version": "0.0.2",
+  "description": "Basic Newspaper Style Layout",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baloki/test-store.git"
+  },
+  "author": "Phillip Vose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baloki/test-store/issues"
+  },
+  "homepage": "https://github.com/baloki/test-store#readme",
+  "devDependencies": {
+    "gulp": "https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "minimist": "^1.2.0",
+    "vinyl-ftp": "^0.5.0"
+  }
+}

@@ -1,6 +1,6 @@
 .social {
   @include clearfix;
-    
+
   @include breakpoint($tablet) {
     position: absolute;
     right: 0;

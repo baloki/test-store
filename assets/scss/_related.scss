@@ -1,12 +1,12 @@
 .related {
   display: none;
-    
+
   @include breakpoint($tablet) {
     display: block;
     float: left;
     width: 17%;
   }
-  
+
   &__article__heading {
     margin: 0.4em 0;
   }

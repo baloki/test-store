@@ -3,7 +3,7 @@
   font-style: italic;
   margin: 0.5em 0 1em;
   text-align: center;
-    
+
   @include breakpoint($tablet) {
     text-align: left;
   }

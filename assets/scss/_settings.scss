@@ -1,10 +1,10 @@
-/* Colours */
+// Colours
 $background-colour: #ffffff;
 $font-colour: #000000;
 $menu-background: #f2f2f2;
 $menu-border: darken($menu-background, 80%);
 
-/* breakpoints */
+// breakpoints
 $tablet: 769px;
 
 @mixin breakpoint($size) {
